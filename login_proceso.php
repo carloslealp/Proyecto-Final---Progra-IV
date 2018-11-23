@@ -23,7 +23,7 @@
 
         if($cont == 1) {
             $_SESSION['usuario_log'] = $usuario;
-            header("location: pagina_1.php");
+            header("location: principal.php");
         }else{
             echo "<script type='text/javascript'>alert('Datos Incorrectos'); window.location.href='login.php'</script>";
         }

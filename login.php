@@ -3,6 +3,7 @@
     include("head.html");
     include("conexion.php");
 ?>
+
 <div class="container">
     <div class="row">
         <div class="col">
@@ -23,8 +24,7 @@
                 <center><button type="submit" class="btn btn-primary" style="background-color:#013B84;">Ingresar</button></center>
             </form>
         </div>
-
-
+        <!--LOGO DE BI EN BARRA SUPERIOR-->
         <div id="imagenbi" class="col">
             <img src="img/bilogo.png" width="500" height="500">
         </div>

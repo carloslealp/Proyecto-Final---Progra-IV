@@ -15,7 +15,7 @@
         $usuario = mysqli_real_escape_string($conector,$_POST['usuario']);
         $contrasena = mysqli_real_escape_string($conector,$_POST['contrasena']);
 
-        $querySelect = $sql = "SELECT * FROM users WHERE codigo = '$codigo' and user = '$usuario' and password = '$contrasena'";
+        $querySelect = $sql = "SELECT * FROM empleados WHERE codigo = '$codigo' and user = '$usuario' and password = '$contrasena'";
         
         $resultado = mysqli_query($conector,$querySelect);
         $fila = mysqli_fetch_array($resultado,MYSQLI_ASSOC);

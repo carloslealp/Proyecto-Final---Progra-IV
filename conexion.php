@@ -2,7 +2,7 @@
     $servidor = "localhost";
     $usuario = "root";
     $password = "";
-    $dbName = "sesion";
+    $dbName = "proyecto2";
     
     //conexión a base de datos.
     $conector = mysqli_connect($servidor, $usuario, $password, $dbName);
